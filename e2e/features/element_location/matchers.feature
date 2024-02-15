@@ -36,4 +36,6 @@ Feature: Element matchers
         And I multi tap on the Electricity Counter by parent id and child id
         And I multi tap on the Gas Counter by child text and parent id
         Then I tap on the Broadband Counter by child id and parent id
+        And I tap the back button
+
 

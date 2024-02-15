@@ -74,3 +74,4 @@ Then('I tap on the Gas counter by text', async () => {
 Then('I tap on the Broadband counter by text', async () => {
     await element(by.text('BROADBAND COUNTER')).tap();
 });
+       

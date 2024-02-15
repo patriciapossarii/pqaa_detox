@@ -372,3 +372,51 @@ DEBUG   | Data frame has invalid ether type 0
 DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
 DEBUG   | Clipboard update, host->guest, value=' Match by matchers + ancestor/descendan'
 DEBUG   | Clipboard update, host->guest, value='Match by matchers + ancestor/descendant'
+DEBUG   | Data frame has invalid ether type 0
+DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
+DEBUG   | Data frame has invalid ether type 0
+DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
+DEBUG   | Clipboard update, host->guest, value='máquina virtual macOS'
+DEBUG   | Data frame has invalid ether type 0
+DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
+DEBUG   | Clipboard update, host->guest, value='        And I tap the back button
+'
+DEBUG   | Clipboard update, host->guest, value='CommonSteps.js'
+DEBUG   | Clipboard update, host->guest, value='import { Then, setDefaultTimeout } from '@cucumber/cucumber'
+
+setDefaultTimeout(120 * 1000);
+
+Then('I tap the back button', async () => {
+    await element(by.id('header-back')).atIndex(0).tap();
+});'
+DEBUG   | Clipboard update, host->guest, value='class Utilities {
+
+    async sleep(milliseconds) {
+        return new Promise(resolve => setTimeout(resolve, milliseconds));
+    }
+}
+
+export default new Utilities();'
+DEBUG   | Data frame has invalid ether type 0
+DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
+DEBUG   | Clipboard update, host->guest, value='Utilities.js'
+DEBUG   | Clipboard update, host->guest, value='class Utilities {
+
+    async sleep(milliseconds) {
+        return new Promise(resolve => setTimeout(resolve, milliseconds));
+    }
+}
+
+export default new Utilities();'
+DEBUG   | Data frame has invalid ether type 0
+DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
+DEBUG   | Clipboard update, host->guest, value='import { Then, setDefaultTimeout } from '@cucumber/cucumber'
+
+setDefaultTimeout(120 * 1000);
+
+Then('I tap the back button', async () => {
+    await element(by.id('header-back')).atIndex(0).tap();
+});'
+DEBUG   | Data frame has invalid ether type 0
+DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
+DEBUG   | Clipboard update, host->guest, value='Tapping the back button'
