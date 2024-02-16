@@ -1,7 +1,7 @@
 INFO    | Android emulator version 33.1.24.0 (build_id 11237101) (CL:N/A)
 DEBUG   | Current emulator version 33.1.24 is the same as the required version 33.1.24.
 INFO    | Found systemPath /home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64/
-INFO    | Storing crashdata in: , detection is enabled for process: 9620
+INFO    | Storing crashdata in: , detection is enabled for process: 13872
 INFO    | Duplicate loglines will be removed, if you wish to see each individual line launch with the -log-nofilter flag.
 DEBUG   | autoconfig: -skin pixel_3a
 DEBUG   | autoconfig: -skindir /home/patricia/Android/Sdk/skins/
@@ -24,17 +24,17 @@ DEBUG   | 	127.0.0.53
 DEBUG   | Starting hostapd main loop.
 DEBUG   | trying to load skin file '/home/patricia/Android/Sdk/skins//pixel_3a/layout'
 DEBUG   | File System is ext4, do not disable QuickbootFileBacked feature
-DEBUG   | Requested console port 14168: Inferring adb port 14169.
+DEBUG   | Requested console port 14644: Inferring adb port 14645.
 DEBUG   | CPU Acceleration: working
 DEBUG   | CPU Acceleration status: KVM (version 12) is installed and usable.
 DEBUG   | handleCpuAcceleration: feature check for hvf
 WARNING | Emualtor does not support more than 6 cores. Number of cores set to 6
 DEBUG   | Bluetooth requested by guest
-DEBUG   | started modem simulator host server at port: 44205
+DEBUG   | started modem simulator host server at port: 46227
 library_mode host gpu mode host
 DEBUG   | GPU emulation enabled using 'host' mode
 DEBUG   | Initializing hardware OpenGLES emulation support
-I0214 20:24:02.232089    9620 HealthMonitor.cpp:279] HealthMonitor disabled.
+I0215 21:16:16.789069   13872 HealthMonitor.cpp:279] HealthMonitor disabled.
 DEBUG   | create display 0
 DEBUG   | setDisplayPose 0 x 0 y 0 w 1080 h 2220 dpi 0
 cannot add library libvulkan.so: failed
@@ -42,23 +42,23 @@ added library libvulkan.so.1
 createGlobalVkEmulation:963 Selecting Vulkan device: NVIDIA GeForce GTX 1650
 initialize: Supports id properties, got a vulkan device UUID
 WARNING: could not open libX11.so, try libX11.so.6
-I0214 20:24:02.466174    9620 VkCommonOperations.cpp:1225] Initializing VkEmulation features:
-I0214 20:24:02.466530    9620 VkCommonOperations.cpp:1226]     glInteropSupported: true
-I0214 20:24:02.466748    9620 VkCommonOperations.cpp:1227]     useDeferredCommands: true
-I0214 20:24:02.466974    9620 VkCommonOperations.cpp:1229]     createResourceWithRequirements: true
-I0214 20:24:02.467178    9620 VkCommonOperations.cpp:1230]     useVulkanComposition: false
-I0214 20:24:02.467363    9620 VkCommonOperations.cpp:1231]     useVulkanNativeSwapchain: false
-I0214 20:24:02.467537    9620 VkCommonOperations.cpp:1232]     enable guestRenderDoc: false
-I0214 20:24:02.467706    9620 VkCommonOperations.cpp:1233]     ASTC LDR emulation mode: 2
-I0214 20:24:02.467877    9620 VkCommonOperations.cpp:1234]     enable ETC2 emulation: true
-I0214 20:24:02.468050    9620 VkCommonOperations.cpp:1235]     enable Ycbcr emulation: false
-I0214 20:24:02.468221    9620 VkCommonOperations.cpp:1236]     guestUsesAngle: false
-I0214 20:24:02.468443    9620 VkCommonOperations.cpp:1237]     useDedicatedAllocations: false
-I0214 20:24:02.469805    9620 FrameBuffer.cpp:486] Graphics Adapter Vendor Google (NVIDIA Corporation)
-I0214 20:24:02.469997    9620 FrameBuffer.cpp:487] Graphics Adapter Android Emulator OpenGL ES Translator (NVIDIA GeForce GTX 1650/PCIe/SSE2)
-I0214 20:24:02.470209    9620 FrameBuffer.cpp:488] Graphics API Version OpenGL ES 3.0 (4.5.0 NVIDIA 535.154.05)
-I0214 20:24:02.470398    9620 FrameBuffer.cpp:489] Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_texture_buffer 
-I0214 20:24:02.470561    9620 FrameBuffer.cpp:490] Graphics Device Extensions N/A
+I0215 21:16:17.017767   13872 VkCommonOperations.cpp:1225] Initializing VkEmulation features:
+I0215 21:16:17.018086   13872 VkCommonOperations.cpp:1226]     glInteropSupported: true
+I0215 21:16:17.018295   13872 VkCommonOperations.cpp:1227]     useDeferredCommands: true
+I0215 21:16:17.018497   13872 VkCommonOperations.cpp:1229]     createResourceWithRequirements: true
+I0215 21:16:17.018696   13872 VkCommonOperations.cpp:1230]     useVulkanComposition: false
+I0215 21:16:17.018884   13872 VkCommonOperations.cpp:1231]     useVulkanNativeSwapchain: false
+I0215 21:16:17.019067   13872 VkCommonOperations.cpp:1232]     enable guestRenderDoc: false
+I0215 21:16:17.019248   13872 VkCommonOperations.cpp:1233]     ASTC LDR emulation mode: 2
+I0215 21:16:17.019558   13872 VkCommonOperations.cpp:1234]     enable ETC2 emulation: true
+I0215 21:16:17.019734   13872 VkCommonOperations.cpp:1235]     enable Ycbcr emulation: false
+I0215 21:16:17.019957   13872 VkCommonOperations.cpp:1236]     guestUsesAngle: false
+I0215 21:16:17.020357   13872 VkCommonOperations.cpp:1237]     useDedicatedAllocations: false
+I0215 21:16:17.021886   13872 FrameBuffer.cpp:486] Graphics Adapter Vendor Google (NVIDIA Corporation)
+I0215 21:16:17.022104   13872 FrameBuffer.cpp:487] Graphics Adapter Android Emulator OpenGL ES Translator (NVIDIA GeForce GTX 1650/PCIe/SSE2)
+I0215 21:16:17.022309   13872 FrameBuffer.cpp:488] Graphics API Version OpenGL ES 3.0 (4.5.0 NVIDIA 535.154.05)
+I0215 21:16:17.022483   13872 FrameBuffer.cpp:489] Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_texture_buffer 
+I0215 21:16:17.022673   13872 FrameBuffer.cpp:490] Graphics Device Extensions N/A
 INFO    | Setting vsync to 60 hz
 INFO    | Sending adb public key [QAAAAFFhi0NPeK+MlOie2SCRf+A47A6bp+C+kbcSbscRnnsTz8LO2RC7QLI6jHYOhfNExYhypChxM6ZxSJ3c2sq03cE87J78WeoYwENzGVVS/y5XlW0q4tXN0YRYFIBQ15vl+hMesEjuAmRnty/S9KkQG3emOlR8d+fx3E82jukgPR7MCh6OCVgmJP5T47jmTeY38QwhUQ2Rr0I7s8b16dXfnldNvdcbD4eGI/ZFyQPBuMAPiuTjwhtXGbY4I/e1gihympPSQvrkTO7ayZ1f+3ESxtW7q17VXTpQT/wXjfWXZmcmuwyAQXPGFkDFARGwR85oUs7I/0IUUYVmccvqZa2WAbCDk5+oe0X8vWun8PFiZtlI35jQNm59RsGOqT47rg3lsoLe7lX0AQWG24TiqhCLUfWy09/7IL5ujkF7Q25gaToAkENr972SFWgkh0bSoBwFHDj7jejiVNXkqX1Vzitq/mq5IDfWXWZ4hV0ah5i7eU5NRHAHJrzKpQMWm9JbKGeQygKoUtC7R1zUGeQwiuMo5GXsJP/xv5sL6Rq272QNv/zbo8RWDko6A/568kqvdIs43beW/kUpYV1gMOeOBqf6jjQ1VFE9F9JnJMqVBejDy0NJc2EBzrWS+3HD4HkPivej6NlZ0+wM0teB/BN7HGvp6UUtNBJlbfMk8ZU0ULJqDta7YOBwoQEAAQA= patricia@unknown]
 DEBUG   | Found 1 DNS servers:
@@ -201,7 +201,7 @@ INFO    | 	 argv[06] = "/home/patricia/.android/avd/../avd/Pixel_3a_API_34_exten
 INFO    | 	 argv[07] = "-serial"
 INFO    | 	 argv[08] = "null"
 INFO    | 	 argv[09] = "-android-ports"
-INFO    | 	 argv[10] = "14168,14169"
+INFO    | 	 argv[10] = "14644,14645"
 INFO    | 	 argv[11] = "-device"
 INFO    | 	 argv[12] = "goldfish_pstore,addr=0xff018000,size=0x10000,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/data/misc/pstore/pstore.bin"
 INFO    | 	 argv[13] = "-cpu"
@@ -265,7 +265,7 @@ INFO    | 	 argv[70] = "virtserialport,chardev=bluetooth,name=bluetooth"
 INFO    | 	 argv[71] = "-device"
 INFO    | 	 argv[72] = "virtio-serial,ioeventfd=off"
 INFO    | 	 argv[73] = "-chardev"
-INFO    | 	 argv[74] = "socket,port=35717,host=::1,nowait,nodelay,reconnect=10,ipv6,id=modem"
+INFO    | 	 argv[74] = "socket,port=37081,host=::1,nowait,nodelay,reconnect=10,ipv6,id=modem"
 INFO    | 	 argv[75] = "-device"
 INFO    | 	 argv[76] = "virtserialport,chardev=modem,name=modem"
 INFO    | 	 argv[77] = "-device"
@@ -310,8 +310,8 @@ INFO    | 	 argv[115] = "none"
 INFO    | 	 argv[116] = "-append"
 INFO    | 	 argv[117] = "no_timer_check 8250.nr_uarts=1 clocksource=pit console=0 cma=294M@0-4G loop.max_part=7 ramoops.mem_address=0xff018000 ramoops.mem_size=0x10000 memmap=0x10000$0xff018000 printk.devkmsg=on bootconfig"
 INFO    | 	 argv[118] = "-android-hw"
-INFO    | 	 argv[119] = "/tmp/android-patricia/emulator-evzR6B"
-INFO    | Concatenated QEMU options: /home/patricia/Android/Sdk/emulator/qemu/linux-x86_64/qemu-system-x86_64 -read-only -dns-server 127.0.0.53 -no-audio -mem-path /home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/snapshots/default_boot/ram.img -serial null -android-ports 14168,14169 -device goldfish_pstore,addr=0xff018000,size=0x10000,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/data/misc/pstore/pstore.bin -cpu android64-xts -enable-kvm -smp cores=6 -m 2048 -lcd-density 440 -object iothread,id=disk-iothread -nodefaults -kernel /home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//kernel-ranchu -initrd /home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/initrd -drive if=none,index=0,id=system,if=none,file=/home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//system.img,read-only -device virtio-blk-pci,drive=system,iothread=disk-iothread,modern-pio-notify -drive if=none,index=1,id=cache,if=none,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/cache.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-pci,drive=cache,iothread=disk-iothread,modern-pio-notify -drive if=none,index=2,id=userdata,if=none,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/userdata-qemu.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-pci,drive=userdata,iothread=disk-iothread,modern-pio-notify -drive if=none,index=3,id=encrypt,if=none,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/encryptionkey.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-pci,drive=encrypt,iothread=disk-iothread,modern-pio-notify -drive if=none,index=4,id=vendor,if=none,file=/home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//vendor.img,read-only -device virtio-blk-pci,drive=vendor,iothread=disk-iothread,modern
+INFO    | 	 argv[119] = "/tmp/android-patricia/emulator-vgvRa0"
+INFO    | Concatenated QEMU options: /home/patricia/Android/Sdk/emulator/qemu/linux-x86_64/qemu-system-x86_64 -read-only -dns-server 127.0.0.53 -no-audio -mem-path /home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/snapshots/default_boot/ram.img -serial null -android-ports 14644,14645 -device goldfish_pstore,addr=0xff018000,size=0x10000,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/data/misc/pstore/pstore.bin -cpu android64-xts -enable-kvm -smp cores=6 -m 2048 -lcd-density 440 -object iothread,id=disk-iothread -nodefaults -kernel /home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//kernel-ranchu -initrd /home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/initrd -drive if=none,index=0,id=system,if=none,file=/home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//system.img,read-only -device virtio-blk-pci,drive=system,iothread=disk-iothread,modern-pio-notify -drive if=none,index=1,id=cache,if=none,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/cache.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-pci,drive=cache,iothread=disk-iothread,modern-pio-notify -drive if=none,index=2,id=userdata,if=none,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/userdata-qemu.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-pci,drive=userdata,iothread=disk-iothread,modern-pio-notify -drive if=none,index=3,id=encrypt,if=none,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/encryptionkey.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-pci,drive=encrypt,iothread=disk-iothread,modern-pio-notify -drive if=none,index=4,id=vendor,if=none,file=/home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//vendor.img,read-only -device virtio-blk-pci,drive=vendor,iothread=disk-iothread,modern
 DEBUG   | Android qemu version 33.1.24.0 (build_id 11237101) (CL:N/A)
 DEBUG   | Starting QEMU main loop
 DEBUG   | registered 'boot-properties' qemud service
@@ -328,16 +328,16 @@ DEBUG   | goldfish_events.have-lidswitch: false
 DEBUG   | goldfish_events.have-tabletmode: false
 DEBUG   | goldfish_events.have-touch: false
 DEBUG   | goldfish_events.have-multitouch: false
-DEBUG   | Adding boot property: 'net.wifi_mac_prefix' = '14168'
-WARNING | Requested adb port (14169) is outside the recommended range [5555,5586]. ADB may not function properly for the emulator. See -help-port for details.
+DEBUG   | Adding boot property: 'net.wifi_mac_prefix' = '14644'
+WARNING | Requested adb port (14645) is outside the recommended range [5555,5586]. ADB may not function properly for the emulator. See -help-port for details.
 DEBUG   | Not using any http proxy
 DEBUG   | Adding boot property: 'qemu.timezone' = 'America/Sao_Paulo'
 DEBUG   | android_hw_fingerprint_init: fingerprint qemud listen service initialized
 DEBUG   | Successfully initialized Wi-Fi
 DEBUG   | emulator_window_fb_rotate
-I0214 20:24:02.818668    9681 FrameBuffer.cpp:3682] setDisplayConfigs w 1080 h 2220 dpiX 440 dpiY 440
+I0215 21:16:17.377770   13948 FrameBuffer.cpp:3682] setDisplayConfigs w 1080 h 2220 dpiX 440 dpiY 440
 DEBUG   | setDisplayPose 0 x 0 y 0 w 1080 h 2220 dpi 0
-I0214 20:24:02.819002    9681 FrameBuffer.cpp:3695] setDisplayActiveConfig 0
+I0215 21:16:17.378114   13948 FrameBuffer.cpp:3695] setDisplayActiveConfig 0
 DEBUG   | Path:/home/patricia/Android/Sdk/platform-tools/adb protocol version: 41
 DEBUG   | Path:/home/patricia/Android/Sdk/platform-tools/adb protocol version: 41
 DEBUG   | Path:/usr/bin/adb protocol version: 41
@@ -360,63 +360,211 @@ DEBUG   | Adding boot property: 'qemu.sf.lcd_density' = '440'
 DEBUG   | Adding boot property: 'net.wifi_mac_prefix' = '5554'
 DEBUG   | Adding boot property: 'qemu.timezone' = 'America/Sao_Paulo'
 DEBUG   | Registering pipe service multidisplay
-DEBUG   | MultiDisplayPipe created 0x555eaee070a0
+DEBUG   | MultiDisplayPipe created 0x56499a7bd0a0
 DEBUG   | _hwFingerprint_connect: connect finger print listen is called
 INFO    | Successfully loaded snapshot 'default_boot'
 DEBUG   | calling ctec from remote
 DEBUG   | added one remote client
-E0214 20:24:04.671035    9781 FrameBuffer.cpp:3736] Failed to find ColorBuffer:0
+E0215 21:16:19.151861   14049 FrameBuffer.cpp:3736] Failed to find ColorBuffer:0
 INFO    | Activated packet streamer for bluetooth emulation
-E0214 20:24:12.496639    9781 FrameBuffer.cpp:3736] Failed to find ColorBuffer:0
+E0215 21:16:26.779805   14049 FrameBuffer.cpp:3736] Failed to find ColorBuffer:0
+DEBUG   | Clipboard update, host->guest, value='import { Given, When, Then, setDefaultTimeout } from '@cucumber/cucumber';
+
+setDefaultTimeout(120 * 1000);
+
+// Locate by matcher + parent/child
+When('I tap on the Water Counter by parent id and child text', async () => {
+    await element(by.id('waterCounter').withDescendant(by.text('WATER COUNTER'))).tap();
+});
+Then('I multi tap on the Electricity Counter by parent id and child id', async () => {
+    await element(by.id('electricityCounter').withDescendant(by.id('counterButton'))).tap();
+});
+Then('I multi tap on the Gas Counter by child text and parent id', async () => {
+    await element(by.text('GAS COUNTER').withAncestor(by.id('gasCounter'))).tap();
+});
+Then('I tap on the Broadband Counter by child id and parent id', async () => {
+    await element(by.id('counterButton').withAncestor(by.id('broadbandCounter'))).tap();
+});
+
+// Match by mulitple matchers
+When('I tap on the Water Counter Title by type and text', async () => {
+    const typeLocator = device.getPlatform() === 'ios' ? 'RCTTextView' : 'android.widget.TextView'
+
+    await element(by.type(typeLocator).and(by.text('WATER COUNTER'))).tap();
+});
+
+Then('I tap on the Electricity Counter by traits and text', async () => {
+    await element(by.traits(['staticText']).and(by.text('ELECTRICITY COUNTER'))).tap();
+});
+
+// Match by ID
+When('I tap on the Water Counter by ID', async () => {
+    await element(by.id('waterCounter')).tap();
+});
+
+When('I tap on the Electricity Counter by ID', async () => {
+    await element(by.id('electricityCounter')).tap();
+});
+
+When('I tap on the Gas Counter by ID', async () => {
+    await element(by.id('gasCounter')).tap();
+});
+
+When('I tap on the Broadband Counter by ID', async () => {
+    await element(by.id('broadbandCounter')).tap();
+});
+
+
+// Match by label
+When('I tap the Home navigation section by label', async () => {
+    await element(by.label('Home')).atIndex(0).tap();
+});
+
+Then('I tap on the Water Counter by label', async () => {
+    await element(by.label('waterCounterLabel
 DEBUG   | Data frame has invalid ether type 0
 DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
-DEBUG   | Clipboard update, host->guest, value=' Match by matchers + ancestor/descendan'
-DEBUG   | Clipboard update, host->guest, value='Match by matchers + ancestor/descendant'
-DEBUG   | Data frame has invalid ether type 0
-DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
-DEBUG   | Data frame has invalid ether type 0
-DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
-DEBUG   | Clipboard update, host->guest, value='máquina virtual macOS'
-DEBUG   | Data frame has invalid ether type 0
-DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
-DEBUG   | Clipboard update, host->guest, value='        And I tap the back button
+DEBUG   | Clipboard update, host->guest, value='Feature: Element matchers
+
+    Elements can be located using the various matchers supported by Detox
+
+    Background: I navigate to the Counters section
+        Given I tap on the Counters section by text
+
+    @matchers @text
+    Scenario: I can locate elements by text
+        When I tap on the Water counter by text
+        And I tap on the Electricity counter by text
+        And I tap on the Gas counter by text
+        Then I tap on the Broadband counter by text
+
+    @matchers @label
+    Scenario: I can locate elements by label
+        When I tap the Home navigation section by label
+        And I tap on the Counters section by text
+        # Shouldn't use unless agreed by the team and company policy. Shouldn't be used for E2E functional tests
+        Then I tap on the Water Counter by label
+
+    @matchers @id
+    Scenario: I can locate elements by ID
+        When I tap on the Water Counter by ID
+        And I tap on the Electricity Counter by ID
+        And I tap on the Gas Counter by ID
+        Then I tap on the Broadband Counter by ID
+
+    @matchers @multiple
+    Scenario: I can locate elements by multiple matchers
+        When I tap on the Water Counter Title by type and text
+        Then I tap on the Electricity Counter by traits and text
+
+    @matchers @parentchild
+    Scenario: I can locate elements with a matcher and parent/child
+        When I tap on the Water Counter by parent id and child text
+        And I multi tap on the Electricity Counter by parent id and child id
+        And I multi tap on the Gas Counter by child text and parent id
+        Then I tap on the Broadband Counter by child id and parent id
+
 '
-DEBUG   | Clipboard update, host->guest, value='CommonSteps.js'
-DEBUG   | Clipboard update, host->guest, value='import { Then, setDefaultTimeout } from '@cucumber/cucumber'
+DEBUG   | Data frame has invalid ether type 0
+DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
+DEBUG   | Data frame has invalid ether type 0
+DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
+DEBUG   | Clipboard update, host->guest, value='Feature: Element matchers
+
+    Elements can be located using the various matchers supported by Detox
+
+    Background: I navigate to the Counters section
+        Given I tap on the Counters section by text
+
+    @matchers @text
+    Scenario: I can locate elements by text
+        When I tap on the Water counter by text
+        And I tap on the Electricity counter by text
+        And I tap on the Gas counter by text
+        Then I tap on the Broadband counter by text
+
+    @matchers @label
+    Scenario: I can locate elements by label
+        When I tap the Home navigation section by label
+        And I tap on the Counters section by text
+        # Shouldn't use unless agreed by the team and company policy. Shouldn't be used for E2E functional tests
+        Then I tap on the Water Counter by label
+
+    @matchers @id
+    Scenario: I can locate elements by ID
+        When I tap on the Water Counter by ID
+        And I tap on the Electricity Counter by ID
+        And I tap on the Gas Counter by ID
+        Then I tap on the Broadband Counter by ID
+
+    @matchers @multiple
+    Scenario: I can locate elements by multiple matchers
+        When I tap on the Water Counter Title by type and text
+        Then I tap on the Electricity Counter by traits and text
+
+    @matchers @parentchild
+    Scenario: I can locate elements with a matcher and parent/child
+        When I tap on the Water Counter by parent id and child text
+        And I multi tap on the Electricity Counter by parent id and child id
+        And I multi tap on the Gas Counter by child text and parent id
+        Then I tap on the Broadband Counter by child id and parent id
+        And I tap the back button
+
+'
+DEBUG   | Clipboard update, host->guest, value='import { Given, When, Then, setDefaultTimeout } from '@cucumber/cucumber';
 
 setDefaultTimeout(120 * 1000);
 
-Then('I tap the back button', async () => {
-    await element(by.id('header-back')).atIndex(0).tap();
-});'
-DEBUG   | Clipboard update, host->guest, value='class Utilities {
+// Locate by matcher + parent/child
+When('I tap on the Water Counter by parent id and child text', async () => {
+    await element(by.id('waterCounter').withDescendant(by.text('WATER COUNTER'))).longPress(5000);
+});
+Then('I multi tap on the Electricity Counter by parent id and child id', async () => {
+    await element(by.id('electricityCounter').withDescendant(by.id('counterButton'))).multiTap(3);
+});
+Then('I multi tap on the Gas Counter by child text and parent id', async () => {
+    await element(by.text('GAS COUNTER').withAncestor(by.id('gasCounter'))).multiTap(5);
+});
+Then('I tap on the Broadband Counter by child id and parent id', async () => {
+    await element(by.id('counterButton').withAncestor(by.id('broadbandCounter'))).tap({ x: 5, y: 5 });
+});
 
-    async sleep(milliseconds) {
-        return new Promise(resolve => setTimeout(resolve, milliseconds));
-    }
-}
+// Match by mulitple matchers
+When('I tap on the Water Counter Title by type and text', async () => {
+    const typeLocator = device.getPlatform() === 'ios' ? 'RCTTextView' : 'android.widget.TextView'
 
-export default new Utilities();'
+    await element(by.type(typeLocator).and(by.text('WATER COUNTER'))).tap();
+});
+
+Then('I tap on the Electricity Counter by traits and text', async () => {
+    await element(by.traits(['staticText']).and(by.text('ELECTRICITY COUNTER'))).tap();
+});
+
+// Match by ID
+When('I tap on the Water Counter by ID', async () => {
+    await element(by.id('waterCounter')).tap();
+});
+
+When('I tap on the Electricity Counter by ID', async () => {
+    await element(by.id('electricityCounter')).tap();
+});
+
+When('I tap on the Gas Counter by ID', async () => {
+    await element(by.id('gasCounter')).tap();
+});
+
+When('I tap on the Broadband Counter by ID', async () => {
+    await element(by.id('broadbandCounter')).tap();
+});
+
+
+// Match by label
+When('I tap the Home navigation section by label', async () => {
+    await element(by.label('Home')).atIndex(0).tap();
+});
+
+Then('I tap on the Water Counter by label', async () => {
+    await
 DEBUG   | Data frame has invalid ether type 0
 DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
-DEBUG   | Clipboard update, host->guest, value='Utilities.js'
-DEBUG   | Clipboard update, host->guest, value='class Utilities {
-
-    async sleep(milliseconds) {
-        return new Promise(resolve => setTimeout(resolve, milliseconds));
-    }
-}
-
-export default new Utilities();'
-DEBUG   | Data frame has invalid ether type 0
-DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
-DEBUG   | Clipboard update, host->guest, value='import { Then, setDefaultTimeout } from '@cucumber/cucumber'
-
-setDefaultTimeout(120 * 1000);
-
-Then('I tap the back button', async () => {
-    await element(by.id('header-back')).atIndex(0).tap();
-});'
-DEBUG   | Data frame has invalid ether type 0
-DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
-DEBUG   | Clipboard update, host->guest, value='Tapping the back button'
+DEBUG   | Clipboard update, host->guest, value='Tapping - extra commands'

@@ -4,16 +4,16 @@ setDefaultTimeout(120 * 1000);
 
 // Locate by matcher + parent/child
 When('I tap on the Water Counter by parent id and child text', async () => {
-    await element(by.id('waterCounter').withDescendant(by.text('WATER COUNTER'))).tap();
+    await element(by.id('waterCounter').withDescendant(by.text('WATER COUNTER'))).longPress(5000);
 });
 Then('I multi tap on the Electricity Counter by parent id and child id', async () => {
-    await element(by.id('electricityCounter').withDescendant(by.id('counterButton'))).tap();
+    await element(by.id('electricityCounter').withDescendant(by.id('counterButton'))).multiTap(3);
 });
 Then('I multi tap on the Gas Counter by child text and parent id', async () => {
-    await element(by.text('GAS COUNTER').withAncestor(by.id('gasCounter'))).tap();
+    await element(by.text('GAS COUNTER').withAncestor(by.id('gasCounter'))).multiTap(5);
 });
 Then('I tap on the Broadband Counter by child id and parent id', async () => {
-    await element(by.id('counterButton').withAncestor(by.id('broadbandCounter'))).tap();
+    await element(by.id('counterButton').withAncestor(by.id('broadbandCounter'))).tap({ x: 5, y: 5 });
 });
 
 // Match by mulitple matchers
@@ -74,4 +74,3 @@ Then('I tap on the Gas counter by text', async () => {
 Then('I tap on the Broadband counter by text', async () => {
     await element(by.text('BROADBAND COUNTER')).tap();
 });
-       
